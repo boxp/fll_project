@@ -38,26 +38,3 @@
 (def fadeinbutton5 (fxdom/Fade. js/button5 0.8 1 300))
 (def fadeinbutton6 (fxdom/Fade. js/button6 0.8 1 300))
 (def fadeinbutton7 (fxdom/Fade. js/button7 0.8 1 300))
-
-; define button linker
-(defn linkbutton1 []
-  (set! 
-    (. js/window -location) "index.html"))
-(defn linkbutton2 []
-  (set! 
-    (. js/window -location) "homepage/whatsfll.html"))
-(defn linkbutton3 []
-  (set! 
-    (. js/window -location) "homepage//history.html"))
-(defn linkbutton4 []
-  (set! 
-    (. js/window -location) "homepage/participate.html"))
-(defn linkbutton5 []
-  (set! 
-    (. js/window -location) "homepage/enlarge.html"))
-(defn linkbutton6 []
-  (set! 
-    (. js/window -location) "homepage/lecture.html"))
-(defn linkbutton7 []
-  (set! 
-    (. js/window -location) "homepage/lounge.html"))
